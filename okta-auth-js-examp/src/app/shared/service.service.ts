@@ -3,7 +3,7 @@ import { Router } from "@angular/router";
 import * as OktaAuth from "@okta/okta-auth-js";
 
 @Injectable()
-export class ServiceService {
+export class OktaAuthService {
 
   oktaAuth = new OktaAuth({
     url: "",
